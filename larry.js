@@ -1,7 +1,7 @@
 const db = require("coders.db");
 const discord = require("discord.js");
 const client = new discord.Client({ disableEveryone: true });
-client.login("Nzg0MTY2MzAzNzgyOTI4NDA0.X8lVxw.y8cox-RKhOu_wI1ekKsFMBfARYg");
+client.login("token");
 const fetch = require("node-fetch");
 const fs = require("fs");
 require("express")().listen(1343);
@@ -28,7 +28,7 @@ client.on('ready', async () => {
     client.channels.resolve("840554033629626409").join({edit: ""})
 
   }, 60000);
-  client.user.setActivity("xalpha-tech.xyz", {type:"WATCHING"})  
+  client.user.setActivity("feon.app", {type:"WATCHING"})  
   console.log("Aktif!")
 
 });
